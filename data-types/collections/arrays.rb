@@ -3,16 +3,16 @@ require 'minitest/pride'
 
 class ArraysTest < Minitest::Test
   def test_0
-    skip
+    #skip
     # In the line below, create a new empty array
-    empty = ______
+    empty = []
     assert_equal [], empty
   end
 
   def test_1
     skip
     # In the line below, create and array with the numbers 1 - 5
-    nums = ______
+    nums = 
     assert_equal [1,2,3,4,5], nums
   end
 
@@ -21,7 +21,7 @@ class ArraysTest < Minitest::Test
     nums = [1,2,3]
     # In the line below, call a method on the nums variable
     # defined above to access the second element
-    actual = nums.______
+    actual = nums.
     expected = 2
     assert_equal expected, actual
   end
@@ -30,7 +30,7 @@ class ArraysTest < Minitest::Test
     skip
     # In the line below, call a method on the nums variable
     # defined above to access the last element
-    nums = [1,2,3]
+    nums = [1, 2, 3]
     actual = nums
     expected = 3
     assert_equal expected, actual
