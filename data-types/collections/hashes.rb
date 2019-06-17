@@ -163,14 +163,14 @@ class HashesTest < Minitest::Test
   end
 
   def test_13
-    skip
+
     books = {
       John_Steinbeck: "Grapes of Wrath",
       Harper_Lee: "To Kill a Mockingbird"
     }
     # Using the books hash defined above,
     # delete the key :Harper+Lee
-    ______
+    books.delete(:Harper_Lee)
     expected = {
       John_Steinbeck: "Grapes of Wrath"
     }
