@@ -261,7 +261,6 @@ class HashesTest < Minitest::Test
   end
 
   def test_20
-    skip
     ages = {
       Jimmy: 4,
       Julio: 8,
@@ -269,7 +268,7 @@ class HashesTest < Minitest::Test
     }
     # Call a method on the ages hash defined above
     # to make the keys the values and vice versa
-    opposite = _____
+    opposite = ages.invert
     expected = {
       4 => :Jimmy,
       8 => :Julio,
